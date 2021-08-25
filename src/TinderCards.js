@@ -31,9 +31,9 @@ function TinderCards() {
                         key={person.name}
                         onSwipe={dir => swiped(dir, person.name)}
                         onCardLeftScreen={() => onCardLeftScreen(person)}
-                        preventSwipe={['right', 'left']}
+                        preventSwipe={['up', 'down']}
                     >
-                        <div style={{backgroundImage:`url(${person.img})`}}>
+                        <div style={{backgroundImage:`url(${person.img})`}} className="card">
                            <h3>{person.name}</h3> 
                         </div>
                         
