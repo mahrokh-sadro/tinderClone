@@ -10,8 +10,8 @@ function TinderCards() {
 
     const [people, setPeople] = useState([
 
-        { name: "eeee", im: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/11.10.2015_Samoyed_%28cropped%29.jpg/220px-11.10.2015_Samoyed_%28cropped%29.jpg" },
-        { name: "aaa", im: "https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450_960_720.jpg" },
+        { name: "eeee", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/11.10.2015_Samoyed_%28cropped%29.jpg/220px-11.10.2015_Samoyed_%28cropped%29.jpg" },
+        { name: "aaa", img: "https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450_960_720.jpg" },
 
     ]);
 
@@ -33,7 +33,7 @@ function TinderCards() {
                         onCardLeftScreen={() => onCardLeftScreen(person)}
                         preventSwipe={['right', 'left']}
                     >
-                        <div style={{backgroundImage:`url(${person.im})`}}>
+                        <div style={{backgroundImage:`url(${person.img})`}}>
                            <h3>{person.name}</h3> 
                         </div>
                         
