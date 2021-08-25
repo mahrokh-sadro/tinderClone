@@ -1,0 +1,8 @@
+.bottomButton{
+    position:fixed;
+    bottom:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* fix late 190 */
