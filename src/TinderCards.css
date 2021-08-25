@@ -4,3 +4,26 @@
     background-image: ;
 } */
 
+.card{
+    position: relative;
+    background-color: aliceblue;
+    width:600px;
+    height:50vh;
+    padding:20px;
+    max-width: 85vw;
+    /* box-shadow adddd later58 */
+    background-size: cover;
+    background-position: center;
+}
+
+.tindercardsContainer{
+display: flex;
+justify-content: center;
+margin-top: 10vh;
+
+}
+
+
+.swipe{
+    position:absolute;
+}
